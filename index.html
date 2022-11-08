@@ -18,21 +18,75 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p class="lead">An app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="input-group p-1">
+        <span class="input-group-text hour">09:00 AM</span>
+        <textarea id="9" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn9am"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">10:00 AM</span>
+        <textarea id="10" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn10am"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">11:00 AM</span>
+        <textarea id="11" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn11am"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">12:00 PM</span>
+        <textarea id="12" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn12pm"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour hour">01:00 PM</span>
+        <textarea id="13" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn1pm"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">02:00 PM</span>
+        <textarea id="14" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn2pm"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">03:00 PM</span>
+        <textarea id="15" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn3pm"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">04:00 PM</span>
+        <textarea id="16" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn4pm"><i class="fas fa-save"></i></button>
+      </div>
+      
+      <div class="input-group p-1">
+        <span class="input-group-text hour">05:00 PM</span>
+        <textarea id="17" class="form-control time-block" aria-label="With textarea"></textarea>
+        <button class="btn btn-outline-secondary save-btn" type="button" id="saveBtn5pm"><i class="fas fa-save"></i></button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
